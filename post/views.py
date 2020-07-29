@@ -94,3 +94,4 @@ def dynamic_hello_reverse(request):
 
 def hello_redirect(request):
     return redirect('../topic_list/')
+
