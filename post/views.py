@@ -1,10 +1,12 @@
-from django.http import HttpResponse,JsonResponse
+from django.http import HttpResponse,JsonResponse,HttpResponseRedirect
 from django.utils.decorators import method_decorator
 from django.views import View
 from django.views.decorators.csrf import csrf_exempt
 from django.urls.converters import IntConverter
 from post.models import Topic,Comment
+from django.urls import reverse
 from post.post_service import build_topic_base_info,build_topic_detail_info,add_comment_to_topic
+from django.shortcuts import redirect
 
 import time
 def exec_time(func):
@@ -87,3 +89,8 @@ def add_comment_to_topic_view(request):
         return JsonResponse({'id': add_comment_to_topic(topic,content).id})
     return JsonResponse({})
 
+def dynamic_hello_reverse(request):
+    return HttpResponseRedirect(reverse('dynamic_hello',args=(2018,9,16),current_app=request.resolver_match.namespace))
+
+def hello_redirect(request):
+    return redirect('../topic_list/')

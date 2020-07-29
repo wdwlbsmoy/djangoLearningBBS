@@ -27,6 +27,9 @@ class Topic(BaseModel):
     def __str__(self):
         return '%d: %s' %(self.id,self.title[:20])
 
+    def get_absolute_url(self):
+        return '/post/topic/%s/' %self.id
+
 class Comment(BaseModel):
     '''
     BBS 话题评论
