@@ -6,7 +6,9 @@ from django.urls.converters import IntConverter
 from post.models import Topic,Comment
 from django.urls import reverse
 from post.post_service import build_topic_base_info,build_topic_detail_info,add_comment_to_topic
-from django.shortcuts import redirect
+from django.shortcuts import redirect,render
+from django.views.generic import TemplateView,RedirectView
+from django.db.models import F
 
 import time
 def exec_time(func):
@@ -95,3 +97,27 @@ def dynamic_hello_reverse(request):
 def hello_redirect(request):
     return redirect('../topic_list/')
 
+class IndexView(TemplateView):
+    # template_name = 'post/index.html'
+    def get_template_names(self):
+        return 'post/index.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(IndexView,self).get_context_data(**kwargs)
+        context['hello'] = 'Hello Django BBS'
+        return context
+
+def index_view(request):
+    return render(request,'post/index.html',context={'hello':'Django jiushi niubi'})
+
+class CommentUpRedirectView(RedirectView):
+    pattern_name = 'post:topic_detail'
+    query_string = False
+
+    def get_redirect_url(self, *args, **kwargs):
+        comment = Comment.objects.get(pk=kwargs['comment_id'])
+        comment.up = F('up') + 1
+        comment.save()
+        del kwargs['comment_id']
+        kwargs['topic_id'] = comment.topic_id
+        return super(CommentUpRedirectView,self).get_redirect_url(*args,**kwargs)

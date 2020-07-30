@@ -15,8 +15,10 @@ urlpatterns = [
     re_path('re_dynamic/(?P<year>[0-9]{4})/(?P<month>[0-9]{2})/(?P<day>[0-9]{2})/',views.dynamic_hello),
     path('dynamic/<int:year>/<mth:month>/<int:day>/',views.dynamic_hello,name='dynamic_hello'),
     path('topic_list/',views.topic_list_view),
-    path('topic/<int:topic_id>/',views.topic_detail_view),
+    path('topic/<int:topic_id>/',views.topic_detail_view,name='topic_detail'),
     path('topic_comment/',views.add_comment_to_topic_view),
     path('dynamic_hello_reverse/',views.dynamic_hello_reverse),
-    path('hello_redirect/',views.hello_redirect)
+    # path('hello_redirect/',views.hello_redirect),
+    path('index/',views.index_view),
+    path('comment_up/<int:comment_id>',views.CommentUpRedirectView.as_view())
 ]
