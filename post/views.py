@@ -121,4 +121,3 @@ class CommentUpRedirectView(RedirectView):
         del kwargs['comment_id']
         kwargs['topic_id'] = comment.topic_id
         return super(CommentUpRedirectView,self).get_redirect_url(*args,**kwargs)
-    dfdfdf
