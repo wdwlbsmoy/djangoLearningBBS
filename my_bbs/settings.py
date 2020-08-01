@@ -79,9 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'django_bbs',
         'USER':'work',
-        'PASSWORD':'Djangobbs',
-        'HOST':'127.0.0.1',
-        'PORT':'3308',
+        'PASSWORD':'Djangobbs@123',
+        'HOST':'121.36.47.96',
+        'PORT':'3306',
     }
 }
 
