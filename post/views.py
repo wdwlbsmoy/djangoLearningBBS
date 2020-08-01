@@ -7,7 +7,7 @@ from post.models import Topic,Comment
 from django.urls import reverse
 from post.post_service import build_topic_base_info,build_topic_detail_info,add_comment_to_topic
 from django.shortcuts import redirect,render
-from django.views.generic import TemplateView,RedirectView
+from django.views.generic import TemplateView,RedirectView,ListView,DetailView
 from django.db.models import F
 
 import time
@@ -121,3 +121,19 @@ class CommentUpRedirectView(RedirectView):
         del kwargs['comment_id']
         kwargs['topic_id'] = comment.topic_id
         return super(CommentUpRedirectView,self).get_redirect_url(*args,**kwargs)
+
+class TopicList(ListView):
+    # model = Topic
+    queryset = Topic.objects.filter(id__gt=10)
+    allow_empty = False
+
+class TopicDetailView(DetailView):
+    model = Topic
+
+    def get_context_data(self, **kwargs):
+        context = super(TopicDetailView, self).get_context_data(**kwargs)
+        pk = self.kwargs.get(self.pk_url_kwarg)
+        context.update({
+            'comment_list': Comment.objects.filter(topic=pk)
+        })
+        return context

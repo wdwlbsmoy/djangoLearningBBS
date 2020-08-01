@@ -20,5 +20,7 @@ urlpatterns = [
     path('dynamic_hello_reverse/',views.dynamic_hello_reverse),
     # path('hello_redirect/',views.hello_redirect),
     path('index/',views.index_view),
-    path('comment_up/<int:comment_id>',views.CommentUpRedirectView.as_view())
+    path('comment_up/<int:comment_id>',views.CommentUpRedirectView.as_view()),
+    path('topics/',views.TopicList.as_view()),
+    path('topic_view/<int:pk>/',views.TopicDetailView.as_view())
 ]
