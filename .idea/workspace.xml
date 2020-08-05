@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e69774e-fc0a-4d64-82dc-0134170b8f7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/post/migrations/0002_auto_20200805_2307.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,45 +11,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_bbs/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1684">
-              <caret line="76" selection-start-line="76" selection-end-line="85" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post/migrations/0001_initial.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <folding>
-                <element signature="e#49#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/post/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="-324">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -57,18 +43,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/__init__.py">
+        <entry file="file://$PROJECT_DIR$/post/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2268">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/post_service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1476">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/post/migrations/0001_initial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1404">
+              <folding>
+                <element signature="e#49#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post/migrations/0002_auto_20200805_2307.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-288">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4200">
+            <state relative-caret-position="2052">
               <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -78,10 +96,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/backends/mysql/base.py">
+        <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+            <state relative-caret-position="252">
+              <caret line="392" column="6" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-2269">
+              <caret line="287" column="6" selection-start-line="287" selection-start-column="6" selection-end-line="287" selection-end-column="6" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -100,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/backends.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
+            <state relative-caret-position="36">
               <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
@@ -111,7 +133,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/base_user.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -132,6 +158,7 @@
       <find>os</find>
       <find>convert_ex</find>
       <find>get_random_secret_key</find>
+      <find>CASC</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,10 +189,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1443" />
-    <option name="y" value="152" />
-    <option name="width" value="1419" />
-    <option name="height" value="876" />
+    <option name="x" value="-1488" />
+    <option name="y" value="51" />
+    <option name="width" value="816" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,6 +252,23 @@
               <item name="&lt; Python 3.6 (my_bbs) &gt;" type="70bed36:NamedLibraryElementNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoLearningBBS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (my_bbs) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoLearningBBS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.6 (my_bbs) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="django" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -235,16 +279,6 @@
               <item name="django" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="djangoLearningBBS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6 (my_bbs) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="django" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="fields" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="djangoLearningBBS" type="b2602c69:ProjectViewProjectNode" />
@@ -395,7 +429,12 @@
       <workItem from="1596341567258" duration="4378000" />
       <workItem from="1596364559797" duration="510000" />
       <workItem from="1596368415001" duration="1406000" />
-      <workItem from="1596412204830" duration="4353000" />
+      <workItem from="1596412204830" duration="4482000" />
+      <workItem from="1596465939271" duration="356000" />
+      <workItem from="1596501707638" duration="641000" />
+      <workItem from="1596550671983" duration="3844000" />
+      <workItem from="1596587986519" duration="1194000" />
+      <workItem from="1596638349269" duration="2734000" />
     </task>
     <task id="LOCAL-00001" summary="更新views">
       <created>1595897957139</created>
@@ -460,11 +499,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596368595598</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="迁移库">
+      <created>1596416635998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596416635998</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142197000" />
+    <option name="totallyTimeSpent" value="151095000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -476,10 +522,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-808" y="122" width="816" height="576" extended-state="6" />
+    <frame x="-1928" y="-112" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42961165" visible="true" weight="0.2037037" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5703884" side_tool="true" visible="true" weight="0.2037037" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.70428896" visible="true" weight="0.17590618" />
+      <window_info id="Structure" order="1" sideWeight="0.29571107" side_tool="true" visible="true" weight="0.17590618" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -489,16 +536,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.42384106" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.06787331" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.62364423" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.1561086" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5195228" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.40431267" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,75 +608,6 @@
     <SUITE FILE_PATH="coverage/my_bbs$models.coverage" NAME="models Coverage Results" MODIFIED="1594389320332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/post" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="e#117#169#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/utils/autoreload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="241" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/admin/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/apps/registry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/urls/converters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/http/response.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="401" column="6" selection-start-line="401" selection-start-column="6" selection-end-line="401" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#16338#16928#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/urls/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2264">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/urls/conf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -637,13 +615,6 @@
           <folding>
             <element signature="e#38#67#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post/post_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -727,13 +698,6 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1138749095/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5134">
-          <caret line="827" column="4" selection-start-line="827" selection-start-column="4" selection-end-line="827" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -893,32 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/backends/mysql/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/backends.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -928,13 +866,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/base_user.py">
+    <entry file="file://$PROJECT_DIR$/post/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/my_bbs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1684">
+        <state relative-caret-position="2736">
           <caret line="76" selection-start-line="76" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/backends/mysql/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3636">
+          <caret line="107" column="37" lean-forward="true" selection-start-line="107" selection-start-column="37" selection-end-line="107" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -945,42 +899,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/post/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1138749095/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="5249" column="8" selection-start-line="5249" selection-start-column="8" selection-end-line="5249" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/deletion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37620">
+          <caret line="1075" column="6" selection-start-line="1075" selection-start-column="6" selection-end-line="1075" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/reverse_related.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/backends.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/base_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="392" column="6" selection-start-line="392" selection-start-column="6" selection-end-line="392" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/contrib/auth/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2269">
+          <caret line="287" column="6" selection-start-line="287" selection-start-column="6" selection-end-line="287" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/post/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
+        <state relative-caret-position="-1404">
           <folding>
             <element signature="e#49#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/post/post_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1476">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/post/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="-324">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/__init__.py">
+    <entry file="file://$PROJECT_DIR$/post/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        <state relative-caret-position="252">
+          <caret line="58" column="32" lean-forward="true" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/bbs_python_one/Lib/site-packages/django/db/models/fields/__init__.py">
+    <entry file="file://$PROJECT_DIR$/post/migrations/0002_auto_20200805_2307.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4200">
-          <caret line="89" column="6" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-288">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
