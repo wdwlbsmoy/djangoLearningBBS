@@ -137,3 +137,6 @@ class TopicDetailView(DetailView):
             'comment_list': Comment.objects.filter(topic=pk)
         })
         return context
+
+def hello_django_bbs(request):
+    return HttpResponse('<h1>hello django</h1>')
