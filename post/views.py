@@ -140,3 +140,16 @@ class TopicDetailView(DetailView):
 
 def hello_django_bbs(request):
     return HttpResponse('<h1>hello django</h1>')
+
+from post.forms import TopicSearchForm
+
+def search_topic_form(request):
+    return render(request,'post/search_topic.html',context={'form':TopicSearchForm()})
+
+def search_topic(request):
+    form = TopicSearchForm(request.GET)
+    if form.is_valid():
+        topic_qs = Topic.objects.filter(title__contains=form.cleaned_data['title'])
+        return render(request,'post/topic_list.html',context={'object_list':topic_qs})
+    else:
+        return render(request,'post/search_topic.html',context={'form':form})

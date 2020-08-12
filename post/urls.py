@@ -23,5 +23,7 @@ urlpatterns = [
     path('comment_up/<int:comment_id>',views.CommentUpRedirectView.as_view()),
     path('topics/',views.TopicList.as_view()),
     path('topic_view/<int:pk>/',views.TopicDetailView.as_view()),
-    path('hello/',views.hello_django_bbs,name='hello')
+    path('hello/',views.hello_django_bbs,name='hello'),
+    path('search_topic_form/',views.search_topic_form),
+    path('search_topic/',views.search_topic)
 ]
