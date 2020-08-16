@@ -153,3 +153,21 @@ def search_topic(request):
         return render(request,'post/topic_list.html',context={'object_list':topic_qs})
     else:
         return render(request,'post/search_topic.html',context={'form':form})
+
+from post.forms import TopicModelForm
+
+def topic_model_form(request):
+    if request.method == 'POST':
+        topic = TopicModelForm(request.POST)
+        if topic.is_valid():
+            topic = Topic.objects.create(title=topic.cleaned_data['title'],
+                                         content=topic.cleaned_data['content'],
+                                         user=request.user)
+            # topic = topic.save(commit=False)
+            # topic.user = request.user
+            # topic.save()
+            return topic_detail_view(request,topic.id)
+        else:
+            return render(request,'post/topic_model_form.html',context={'form': topic})
+    else:
+        return render(request,'post/topic_model_form.html',context={'form':TopicModelForm()})

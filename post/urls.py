@@ -25,5 +25,6 @@ urlpatterns = [
     path('topic_view/<int:pk>/',views.TopicDetailView.as_view()),
     path('hello/',views.hello_django_bbs,name='hello'),
     path('search_topic_form/',views.search_topic_form),
-    path('search_topic/',views.search_topic)
+    path('search_topic/',views.search_topic),
+    path('topic_model_form/',views.topic_model_form)
 ]
